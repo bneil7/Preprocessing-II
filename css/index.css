@@ -367,14 +367,12 @@ header h2 {
 }
 @media ( max-width:500px ) {
   .home .content-pick {
-    border: 2px solid lime;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
   }
   .home .content-pick .destination {
-    border: 2px solid red;
     padding: 5%;
     display: flex;
     flex-wrap: wrap;
