@@ -16,10 +16,10 @@ header{
 }
 
 .home{
-  border:2px solid lime;
+  // border:2px solid lime;
 
   .content-section {
-    border:2px solid gold;
+    // border:2px solid gold;
     margin: 30px 0;
     display: flex;
     flex-wrap: wrap;
@@ -69,10 +69,16 @@ header{
     border-top: 2px dashed @navigation-border;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     .destination {
       width: 30%;
       margin-bottom: 30px;
+
+      .btn{
+        .custom-btn();
+        align-items: center;
+      }
     }
   }
 }// home

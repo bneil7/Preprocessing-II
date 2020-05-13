@@ -126,7 +126,6 @@ table {
   border-spacing: 0;
 }
 * {
-  border: 1px solid gray;
   max-width: 100%;
 }
 * {
@@ -226,11 +225,7 @@ header h2 {
   align-items: center;
   padding: 2% 0;
 }
-.home {
-  border: 2px solid lime;
-}
 .home .content-section {
-  border: 2px solid gold;
   margin: 30px 0;
   display: flex;
   flex-wrap: wrap;
@@ -271,8 +266,36 @@ header h2 {
   border-top: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  display: block;
+  background-color: #17A2B8;
+  margin: 15px;
+  cursor: pointer;
+  width: 200px;
+  height: 45px;
+  font-size: 1.8rem;
+  border-radius: 10px;
+  color: #FFFFFF;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.home .content-pick .destination .btn:hover {
+  background-color: #FFFFFF;
+  color: #17A2B8;
+  border: 1px solid #17A2B8;
+}
+@media (max-width:500px) {
+  .home .content-pick .destination .btn .btn {
+    width: 90%;
+    height: 50px;
+    font-size: 2.5rem;
+  }
 }
